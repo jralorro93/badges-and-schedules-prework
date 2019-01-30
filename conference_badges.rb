@@ -25,7 +25,7 @@ def assign_rooms(names)
   return message
 end
 
-def printer
+def printer(names)
   batch_badge_creator(names).each do |phrase|
     puts phrase
   end
